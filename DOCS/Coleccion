@@ -1,0 +1,392 @@
+{
+	"info": {
+		"_postman_id": "cc88218f-7f6f-4ab8-a46e-7e6a230f413f",
+		"name": "C:\\Users\\LAB7\\GitProyecto\\tareaSoftware\\DOCS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/things",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "1501199700976",
+							"type": "text"
+						},
+						{
+							"key": "clase",
+							"value": "Español",
+							"type": "text"
+						},
+						{
+							"key": "seccion",
+							"value": "1040",
+							"type": "text"
+						},
+						{
+							"key": "cupos",
+							"value": "20",
+							"type": "text"
+						},
+						{
+							"key": "docente",
+							"value": "Rafita",
+							"type": "text"
+						},
+						{
+							"key": "campus",
+							"value": "Tegus",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/things",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"things"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/things",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "1501199700976",
+							"type": "text"
+						},
+						{
+							"key": "clase",
+							"value": "Español",
+							"type": "text"
+						},
+						{
+							"key": "seccion",
+							"value": "1040",
+							"type": "text"
+						},
+						{
+							"key": "cupos",
+							"value": "20",
+							"type": "text"
+						},
+						{
+							"key": "docente",
+							"value": "Rafita",
+							"type": "text"
+						},
+						{
+							"key": "campus",
+							"value": "Tegus",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/things",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"things"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/things",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "1501199700976",
+							"type": "text"
+						},
+						{
+							"key": "clase",
+							"value": "Español",
+							"type": "text"
+						},
+						{
+							"key": "seccion",
+							"value": "1040",
+							"type": "text"
+						},
+						{
+							"key": "cupos",
+							"value": "20",
+							"type": "text"
+						},
+						{
+							"key": "docente",
+							"value": "Rafita",
+							"type": "text"
+						},
+						{
+							"key": "campus",
+							"value": "Tegus",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/things",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"things"
+					]
+				},
+				"description": "Get"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/things",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "1501199700976",
+							"type": "text"
+						},
+						{
+							"key": "clase",
+							"value": "Español",
+							"type": "text"
+						},
+						{
+							"key": "seccion",
+							"value": "1040",
+							"type": "text"
+						},
+						{
+							"key": "cupos",
+							"value": "20",
+							"type": "text"
+						},
+						{
+							"key": "docente",
+							"value": "Rafita",
+							"type": "text"
+						},
+						{
+							"key": "campus",
+							"value": "Tegus",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/things",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"things"
+					]
+				},
+				"description": "Post"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/things",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "1501199700976",
+							"type": "text"
+						},
+						{
+							"key": "clase",
+							"value": "Español",
+							"type": "text"
+						},
+						{
+							"key": "seccion",
+							"value": "1040",
+							"type": "text"
+						},
+						{
+							"key": "cupos",
+							"value": "20",
+							"type": "text"
+						},
+						{
+							"key": "docente",
+							"value": "Rafita",
+							"type": "text"
+						},
+						{
+							"key": "campus",
+							"value": "Tegus",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/things",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"things"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/things",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "1501199700976",
+							"type": "text"
+						},
+						{
+							"key": "clase",
+							"value": "Español",
+							"type": "text"
+						},
+						{
+							"key": "seccion",
+							"value": "1040",
+							"type": "text"
+						},
+						{
+							"key": "cupos",
+							"value": "20",
+							"type": "text"
+						},
+						{
+							"key": "docente",
+							"value": "Rafita",
+							"type": "text"
+						},
+						{
+							"key": "campus",
+							"value": "Tegus",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/things",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"things"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
